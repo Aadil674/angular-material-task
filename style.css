@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif; ;
+}
+
+body{
+
+    height: 100%;
+    
+}
+
+.header{
+    position: relative;
+    /* z-index: 2; */
+    height: 3rem;
+    background-color:#3f51b5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 3px 5px -1px #0003, 0 6px 10px #00000024, 0 1px 18px #0000001f;
+}
+.first-ul{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+.second-ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 1rem;
+
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.angular-img{
+    height: 1rem;
+    margin-left: 10px;
+    
+}
+
+.github-img{
+    height:1.5rem;
+    margin-right: 10px;
+    
+}
+
+
+/*  need to ask about angular logo and drop down arrow*/
+
+.list-1{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.list-2{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {    background-color: #3f51b5;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3f51b5;
+
+  }
+/* question of triangle down*/
+/* 
+.triangle_down1{
+    width: 5px;
+    height: 5px;
+    border-right: 0.2em solid black;
+    border-top: 0.2em solid black;
+    transform: rotate(135deg);
+} */
+
+
+/*********************************/
+
+/* main section start from here(after header)*/
+
+.main-section{
+    background-color: #3f51b5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+     height: 20rem;
+
+}
+
+ .main-section-div{
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    
+} 
+
+.btn{
+    margin-top: 10px;
+    /* width: 30%; */
+    /* height: 30px; */
+    /* display: block; */
+    cursor: pointer;
+     padding: 12px 12px;
+     font-size: 15px;
+    /*border-radius: 4px; */
+}
+h1{
+    color: white;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 56px;
+}
+h6{
+    color: white;
+    font-size: 12px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+    /* font-size: medium; */
+}
+
+/*********************************************/
+
+/* last section*/
+
+.last-section{
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    /* gap: 5rem; */
+}
+
+h2{
+   color:  #0000008a;
+    font-size: 25px;
+    font-weight: 400;
+}
+.div-cont-1{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-left: 40px;
+    
+
+}
+
+.div-cont-2{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.div-cont-3{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 1rem;
+    
+
+}
+
+p{
+    width: 80%;
+    font-size: 15px;
+   color:  #0000008a;
+
+}
+
+/*dropdown*/
+
+.dropbtn {
+    background-color: #3f51b5;
+
+    color: white;
+    padding-right: 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: white;
+}
+  
+  
+  
